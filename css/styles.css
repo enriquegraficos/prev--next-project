@@ -1,0 +1,107 @@
+body{
+    background: #44acab;
+    background-image: linear-gradient(90deg, #6e40aa, #6154c8, #4c6edb, #368ce1, #24aad8, #1ac7c2, #1ddea3, #30ee83, #52f667, #7ef658, #7ef658);
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#person-img{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50% at 50% 50%);
+    animation: .3s;
+    
+}
+
+#job{
+    color:#AF0171 ;
+}
+
+#info{
+    color:gray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   border: 3px solid white;
+   max-width: 920px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: whitesmoke;
+   box-shadow: 3px red;
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 15px;
+   /* margin-left: 5px;
+   margin-right: 5px;  */
+   
+}
+.container .title{
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    color:#4C0033;
+    margin-bottom: 45px;
+}
+
+.container .title .underline{
+    width: 75px;
+    height: 8px; 
+    background-color: #AF0171;   
+}
+.prev-btn{
+    width: 45px;
+    height: 45px;
+    background-color:#251B37;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.prev-btn:hover{
+    background-color:#372948;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 22px;
+}
+.next-btn{
+    width: 45px;
+    height: 45px;
+    background-color:#251B37;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.next-btn:hover{
+    background-color:#372948;
+}
+
+.random-btn{
+    margin-top: 15px;
+    background-color: #372948;
+    width: 100px;
+    height: 45px;
+    color:white;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.random-btn:hover{
+    background-color:#251B37 ;
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+      margin: 5px;
+    }
+  }
